@@ -1,0 +1,12 @@
+/*css variables*/
+:root {
+
+  }
+
+/*base template styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*end Base template styles*/
