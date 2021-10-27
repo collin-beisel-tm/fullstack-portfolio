@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Fullstack Portfolio</title>
+  <title>CB Fullstack Portfolio</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -13,7 +13,14 @@
 <!--Start global nav-->
     <header>
         <!--CB Builds Logo... also functions as home button or brings to top of site.-->
-        <img src="" alt="">
+        <div>
+            <h1>
+                <a href="#hero-section">CB Builds</a>
+            </h1>
+            <h4>
+                <a href="#hero">Est. 2021</a>
+            </h4>
+        </div>
         <!--Unordered list for top nav buttons-->
         <nav>
             <ul>
@@ -32,28 +39,38 @@
 <!--End global nav-->
 
 <!--Start Hero section-->
-    <section class="hero">
-        <!--Name and slogan-->
-        <h1>Collin Beisel</h1>
-        <h3>If ya aint first, you're last</h3>
-        <!--headshot-->
-        <img src="" alt="Head shot of Collin Beisel">
+    <section id="hero-section">
+        <div class="hero-container">
+            <!--Name and slogan-->
+            <div class="hero-name">
+                <h1>Collin Beisel</h1>
+            </div>
+            <div class="hero-slogan">
+                <h3>"If ya aint first, you're last"</h3>
+            </div>
+            <div class="hero-image">
+                <!--headshot-->
+                <img src="./assets/Images/4Z2A9856-Edit - Copy.jpg" alt="Head shot of Collin Beisel">
+            </div>
+        </div>
     </section>
 <!--End Hero section-->
 
 <!--Start About Me section-->
     <section id="get-to-know-me">
-        <h2>Get To Know Me</h2>
-        <p>
-            This is a paragraph that describes who i am and my experience. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
-        </p>
+        <div class="get-to-know-me-container">
+            <h2>Get To Know Me</h2>
+            <p>
+                This is a paragraph that describes who i am and my experience. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+            </p>
+        </div>
     </section>
 <!--Start About Me section-->
 
@@ -114,7 +131,7 @@
 <!--Start Footer Section-->
     <section>
         <img src="" alt="cb builds logo">
-        <h2>Made with love by yours truly! - Collin Beisel</h2>
+        <h3>Made with love by yours truly! - Collin Beisel</h3>
         <h4>If ya aint first, yer last!</h4>
         <!--div for socials/ link outs-->
         <div>

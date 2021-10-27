@@ -13,3 +13,149 @@
     box-sizing: border-box;
   }
 /*end Base template styles*/
+
+/*header styles*/
+header {
+    max-height: 150px;
+    padding: 20px 35px;
+    border-bottom: solid var(--primary-color);;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+header div {
+    width: 15%;
+    height: auto;
+}
+
+header div h1 a {
+    color: var(--primary-color);
+}
+
+header div h4 a {
+    color: var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+header nav {
+    margin: auto 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 10px;
+    margin: 0 7px;
+    font-weight: normal;
+    font-size: 1.55vw;
+    border-radius: 25px;
+    border: solid var(--secondary-color);
+    border-width: thin;
+}
+/*psudo for header hover*/
+header nav ul li a:hover{
+    background: var(--background-color);
+    color: var(--secondary-color);
+    border-radius: 25px;
+    border: solid var(--primary-color);
+    text-shadow: none;
+}
+/*end header styles*/
+
+/*start hero styles*/
+.hero-container{
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: start;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: italic;
+    color: var(--secondary-color);
+    
+}
+
+.hero-name {
+    width: 475px;
+    height: 80px;
+    margin: 10px;
+    font-size: 50px;
+    text-shadow: 0 0 5px rgba(132, 142, 134, 1);
+    text-align: center;
+    
+}
+.hero-name h1 {
+    justify-content: center;
+}
+
+.hero-slogan {
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+.hero-image {
+    width: 200px;
+    height: 180px;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid thin var(--primary-color);
+}
+
+/*end hero styles*/
+
+/*start get to know me styles*/
+.get-to-know-me-container {
+    height:300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: var(--primary-color);
+    
+}
+
+.get-to-know-me-container h2 {
+    color: var(--secondary-color);
+}
+
+.get-to-know-me-container p {
+    color: var(--background-color);
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+/*end get to know me styles*/
