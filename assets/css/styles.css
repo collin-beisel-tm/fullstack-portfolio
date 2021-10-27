@@ -1,5 +1,10 @@
 /*css variables*/
-
+:root {
+    --background-color: #fff;
+    --primary-color: #848e86;
+    --secondary-color: #d1691c;
+    --tertiary-color: #2c2d2c;
+  }
 
 /*base template styles*/
 * {
