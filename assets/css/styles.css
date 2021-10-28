@@ -27,23 +27,25 @@ header {
     top: 0;
     z-index: 9999;
     font-family: sans-serif;
-    font-style: italic;
 }
 
 header div {
     width: 30%;
     height: auto;
+    border-bottom: var(--primary-color) solid thin;
 }
 
 header div h1 a {
     color: var(--primary-color);
     font-size: 50px;
+    font-style: italic;
 }
 
 header div h4 a {
     color: var(--secondary-color);
     margin-bottom: 50px;
     font-size: 25px;
+    font-style: italic;
 }
 
 header a {
@@ -53,6 +55,8 @@ header a {
 
 header nav {
     margin: auto 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -67,7 +71,7 @@ header nav ul li a {
     padding: 10px 10px;
     margin: 0 7px;
     font-weight: normal;
-    font-size: 1.55vw;
+    font-size: 1.2vw;
     border-radius: 25px;
     border: solid var(--secondary-color);
     border-width: thin;
@@ -92,7 +96,7 @@ header nav ul li a:hover{
     justify-content: start;
     align-items: center;
     font-family: sans-serif;
-    font-style: italic;
+    
     color: var(--secondary-color);
     
 }
@@ -124,6 +128,7 @@ header nav ul li a:hover{
     height: 180px;
     justify-content: center;
     align-content: center;
+    ;
 }
 
 .hero-image img{
@@ -145,7 +150,6 @@ header nav ul li a:hover{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    font-style: italic;
     background-color: var(--primary-color);
     
 }
@@ -172,8 +176,35 @@ header nav ul li a:hover{
     color: var(--primary-color);
 }
 
+#my-work h3 {
+    width: 50%;
+    height: 10%;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    text-decoration: underline var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    margin-top: 10px;
+}
+#my-work h4 {
+    text-align: center;
+    width: 25%;
+    font-size: 14px;
+    border-radius: 25px;
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: var(--secondary-color);
+    margin-top: 5px;
+}
+
 .project-container-1 {
-    height:300px;
+    height:350px;
+    flex-basis: 50%;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -186,29 +217,20 @@ header nav ul li a:hover{
 }
 
 .project1 {
-    border: solid 1px var(--secondary-color);
+   
     flex-basis: 90%;
     height: 100%;
-
+    background-image: url("../images/run-buddy.PNG");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
+    border: var(--primary-color) solid thin;
 }
 
-.project1 img {
-    height: 100%;
-    width: 60%;
-    position: relative;
-}
-
-.project1 h3{
-    text-align: center;
-    color: var(--secondary-color);
-    text-decoration: underline var(--primary-color);
-    position: relative;
-}
-.project1 h4{
-    text-align: center;
-    color: var(--primary-color);
-    position: relative;
-}
 .project-container-2 {
     height:300px;
     padding: 0px;
@@ -224,23 +246,35 @@ header nav ul li a:hover{
 }
 
 .project2 {
-    border: solid 1px var(--secondary-color);
+    
     flex-basis: 45%;
     height: 100%;
     margin-right: 5px;
-
+    border-radius: 25px;
+    background-image: url("../images/horiseon.PNG");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: var(--primary-color) solid thin;
 }
+
 .project3 {
-    border: solid 1px var(--secondary-color);
+    
     flex-basis: 45%;
     height: 100%;
     margin-left: 5px;
-}
-
-.project2, .project3 h3 {
-    text-align: center;
-    text-decoration: underline var(--primary-color);
-    color: var(--secondary-color);
+    border-radius: 25px;
+    background-image: url("../images/pswd-gen.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: var(--primary-color) solid thin;
 }
 
 .project-container-3 {
@@ -258,22 +292,115 @@ header nav ul li a:hover{
 }
 
 .project4 {
-    border: solid 1px var(--secondary-color);
+    
     flex-basis: 45%;
     height: 100%;
     margin-right: 5px;
-
+    border-radius: 25px;
+    background-image: url("../images/04-web-apis-homework-demo.gif");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: var(--primary-color) solid thin;
 }
+
 .project5 {
-    border: solid 1px var(--secondary-color);
+  
     flex-basis: 45%;
     height: 100%;
     margin-left: 5px;
+    border-radius: 25px;
+    background-image: url("../images/scheduler.png");
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: var(--primary-color) solid thin;
 }
 
-.project4, .project5 h3 {
-    text-align: center;
-    text-decoration: underline var(--primary-color);
-    color: var(--secondary-color);
-}
 /*end projects styles*/
+
+/*Start reach out styles*/
+.reach-out {
+    background-color: var(--secondary-color);
+    margin: 40px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reach-out h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color: var(--background-color);
+}
+
+.reach-out div{
+    width: 50%;
+}
+.reach-out p {
+    font-size: 18px;
+    text-align: center;
+    color: var(--background-color);
+    font-family: cursive;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    height: 50px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.contact-form {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--background-color);
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contact-form form {
+    display: flex;
+    border: var(--background-color)solid thin;
+    border-radius: 25px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/*End reach out styles*/
+
+
+/*start footer styles*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text-socials {
+
+}
+
+.footer-text {
+    flex-direction: column;
+    color: var(--primary-color);
+
+}
+
+.footer-socials {
+
+}
+/*end footer styles*/
