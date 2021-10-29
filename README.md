@@ -2,7 +2,9 @@
 
 ## App description
 This application is used to navigate my recent web dev projects and learn about me.
-![Image of the top nav and hero section](./assets/images/readme-screenshot1)
+![Image of the top nav and hero section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot1.PNG
+)
+
 ## Technologies used
 - HTML
 - CSS (flexbox)
