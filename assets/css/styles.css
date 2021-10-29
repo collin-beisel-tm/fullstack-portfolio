@@ -75,13 +75,13 @@ header nav ul {
 header nav ul li a {
     padding: 10px 10px;
     margin: 0 7px;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.2vw;
     border-radius: 25px;
     border: solid var(--secondary-color);
     border-width: thin;
 }
-/*psudo for header hover*/
+/*psudo for header button highlight hover*/
 header nav ul li a:hover{
     background: var(--background-color);
     color: var(--secondary-color);
@@ -227,7 +227,7 @@ header nav ul li a:hover{
     font-style: italic;
     
 }
-
+/*psudo class to highlight hover over project cards*/
 .project-container-1 :hover {
     border: var(--secondary-color) solid thick;
 }
@@ -376,6 +376,11 @@ header nav ul li a:hover{
     flex-direction: column;
 }
 
+.contact-form textarea, input, .placeholder{
+    border-radius: 25px;
+    text-align: center;
+}
+
 .reach-out address, .reach-out address a {
     color: var(--background-color);
     margin:10px 20px 0 0;
@@ -432,4 +437,3 @@ header nav ul li a:hover{
 
 /*end footer styles*/
 
-/*media queries*/

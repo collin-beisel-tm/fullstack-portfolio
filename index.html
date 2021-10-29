@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>CB Fullstack Portfolio</title>
+  <title>Fullstack Web Dev Portfolio</title>
+  <link rel="shortcut icon" type="image/jpg" href="./assets/Images/favicon.ico">
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -136,7 +137,7 @@
     </section>
 <!--End My Work Section-->
 
-<!--Start reach out section-->
+<!--Start reach out section with info on how to contact me-->
     <section id="reach-out" class="reach-out">
         <div>
             <h2>Reach Out</h2>
@@ -146,14 +147,15 @@
                 E: <a href="mailto:CBBuilds@gmail.com">CBBuilds@gmail.com</a>
             </address>
         </div>
+        <!--contact form-->
         <div class="contact-form">
-            <form>
-                <label for="contact-name">Your Name</label>
+            <form action="mailto:collin.d.beisel@gmail.com" method="post" enctype="text/plain">
+                <label for="contact-name">Your Name:</label>
                 <input type="text" id="contact-name" placeholder="Your Name"/>
     
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-            
+                <label for="contact-message">Message:</label>
+                <textarea type="text" name="email" id="contact-message" placeholder="Message"></textarea>
+
                 <button type="submit">Submit</button>
             </form>
             </div>
