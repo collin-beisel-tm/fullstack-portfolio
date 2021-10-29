@@ -97,9 +97,7 @@ header nav ul li a:hover{
     justify-content: start;
     align-items: center;
     font-family: sans-serif;
-    
     color: var(--secondary-color);
-    
 }
 
 .hero-name {
@@ -109,8 +107,8 @@ header nav ul li a:hover{
     font-size: 50px;
     /*text-shadow: 0 0 5px rgba(132, 142, 134, 1);*/
     text-align: center;
-    
 }
+
 .hero-name h1 {
     justify-content: center;
 }
@@ -122,7 +120,6 @@ header nav ul li a:hover{
     color: var(--primary-color);
     text-align: center;
 }
-
 
 .hero-image {
     width: 200px;
@@ -152,7 +149,6 @@ header nav ul li a:hover{
     align-items: center;
     font-family: sans-serif;
     background-color: var(--primary-color);
-    
 }
 
 .get-to-know-me-container h2 {
@@ -170,10 +166,6 @@ header nav ul li a:hover{
 /*end get to know me styles*/
 
 /*start projects styles*/
-#my-work {
-    width: 60%;
-    margin: auto;
-}
 
 #my-work h2 {
     font-size: 40px;
@@ -181,8 +173,12 @@ header nav ul li a:hover{
     margin: 40px 0 20px 0;
     color: var(--primary-color);
 }
+.projects-container {
+    width: 60%;
+    margin: auto;
+}
 
-#my-work h3 {
+.projects-container h3 {
     width: 50%;
     height: 10%;
     font-size: 20px;
@@ -194,8 +190,9 @@ header nav ul li a:hover{
     background-color: var(--primary-color);
     border-radius: 25px;
     margin-top: 10px;
+    
 }
-#my-work h4 {
+.projects-container h4 {
     text-align: center;
     width: 25%;
     font-size: 14px;
@@ -206,6 +203,7 @@ header nav ul li a:hover{
     align-items: flex-end;
     background-color: var(--secondary-color);
     margin-top: 5px;
+    
 }
 
 .project-container-1 {
@@ -241,106 +239,75 @@ header nav ul li a:hover{
     border: var(--primary-color) solid thin;
 }
 
-
 .project-container-2 {
-    height:300px;
-    padding: 0px;
-    margin: 10px 5px;
+    height:200px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-family: sans-serif;
     font-style: italic;
     
 }
 
-
-.project2 {
-    
-    flex-basis: 45%;
+.project-container-2 a {
+    flex-basis: 46%;
     height: 100%;
-    margin-right: 5px;
-    border-radius: 25px;
-    background-image: url("../images/horiseon.PNG");
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border: var(--primary-color) solid thin;
+    
 }
 
-.project-container-2 :hover {
+.project-container-2 div :hover {
     border: var(--secondary-color) solid thick;
-}
-
-.project3 {
-    
-    flex-basis: 45%;
-    height: 100%;
-    margin-left: 5px;
-    border-radius: 25px;
-    background-image: url("../images/pswd-gen.jpg");
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border: var(--primary-color) solid thin;
 }
 
 .project-container-3 {
-    height:300px;
-    padding: 0px;
-    margin: 10px 5px;
+    height:200px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-family: sans-serif;
     font-style: italic;
     
 }
 
-.project-container-3 :hover {
+.project-container-3 a {
+    flex-basis: 46%;
+    height: 100%;
+    
+}
+
+.project-container-3 div :hover {
     border: var(--secondary-color) solid thick;
 }
 
-.project4 {
-    
-    flex-basis: 45%;
-    height: 100%;
-    margin-right: 5px;
-    border-radius: 25px;
-    background-image: url("../images/04-web-apis-homework-demo.gif");
+.project-card {
     background-size: cover;
     background-position: top;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: var(--primary-color) solid thin;
-}
-
-.project5 {
-  
-    flex-basis: 45%;
-    height: 100%;
-    margin-left: 5px;
     border-radius: 25px;
-    background-image: url("../images/scheduler.png");
-    background-size: contain;
-    background-position: top;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     border: var(--primary-color) solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+.project2-img{
+    background-image: url("../images/horiseon.PNG");
+}
+.project3-img{
+    background-image: url("../images/pswd-gen.jpg");
+}
+.project4-img{
+    background-image: url("../images/04-web-apis-homework-demo.gif");
+}
+.project5-img {
+    background-image: url("../images/scheduler.png");
 }
 
 /*end projects styles*/
