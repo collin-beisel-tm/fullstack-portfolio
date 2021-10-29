@@ -406,10 +406,6 @@ header nav ul li a:hover{
     flex-wrap: wrap;
 }
 
-.footer-logo img {
-    width: ;
-}
-
 .footer-socials {
     display: flex;
     margin-left: 20%;
