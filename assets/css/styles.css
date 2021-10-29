@@ -298,16 +298,16 @@ header nav ul li a:hover{
     height: 200px;
 }
 .project2-img{
-    background-image: url("../images/horiseon.PNG");
+    background-image: url("../Images/horiseon.PNG");
 }
 .project3-img{
-    background-image: url("../images/pswd-gen.jpg");
+    background-image: url("../Images/pswd-gen.jpg");
 }
 .project4-img{
-    background-image: url("../images/04-web-apis-homework-demo.gif");
+    background-image: url("../Images/04-web-apis-homework-demo.gif");
 }
 .project5-img {
-    background-image: url("../images/scheduler.png");
+    background-image: url("../Images/scheduler.png");
 }
 
 /*end projects styles*/
