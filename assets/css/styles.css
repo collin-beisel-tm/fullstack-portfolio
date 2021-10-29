@@ -17,7 +17,7 @@
 
 /*header styles*/
 header {
-    max-height: 150px;
+
     padding: 20px 35px;
     background-color: var(--background-color);
     display: flex;
@@ -28,12 +28,15 @@ header {
     top: 0;
     z-index: 9999;
     font-family: sans-serif;
+    
 }
 
 header div {
-    width: 30%;
+    width: 50%;
+    padding-right: 20em;
+    
     height: auto;
-    border-bottom: var(--primary-color) solid thin;
+
 }
 
 header div h1 a {
@@ -55,7 +58,8 @@ header a {
   }
 
 header nav {
-    margin: auto 0px;
+    
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -91,6 +95,7 @@ header nav ul li a:hover{
 .hero-container{
     height: 450px;
     padding: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -101,11 +106,10 @@ header nav ul li a:hover{
 }
 
 .hero-name {
-    width: 475px;
-    height: 80px;
+    flex-shrink: 1;
+    width: 50%vw;
     margin: 10px;
-    font-size: 50px;
-    /*text-shadow: 0 0 5px rgba(132, 142, 134, 1);*/
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -114,11 +118,12 @@ header nav ul li a:hover{
 }
 
 .hero-slogan {
-    width: 250px;
-    height: 50px;
+    width: 75%;
     margin: 10px;
+    font-size: 14px;
     color: var(--primary-color);
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .hero-image {
@@ -126,7 +131,7 @@ header nav ul li a:hover{
     height: 180px;
     justify-content: center;
     align-content: center;
-    ;
+    
 }
 
 .hero-image img{
@@ -141,7 +146,7 @@ header nav ul li a:hover{
 
 /*start get to know me styles*/
 .get-to-know-me-container {
-    height:300px;
+   
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -161,6 +166,7 @@ header nav ul li a:hover{
     padding-top: 30px;
     font-size: 18px;
     font-style: normal;
+    width: 75%;
 }
 
 /*end get to know me styles*/
@@ -171,20 +177,22 @@ header nav ul li a:hover{
     font-size: 40px;
     text-align: center;
     margin: 40px 0 20px 0;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .projects-container {
     width: 60%;
     margin: auto;
 }
 
+.projects-container > * {
+    flex-basis: 100%;
+}
+
 .projects-container h3 {
-    width: 50%;
-    height: 10%;
-    font-size: 20px;
+    
+    font-size: 1em;
     color: var(--tertiary-color);
     text-decoration: underline var(--primary-color);
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
@@ -195,20 +203,20 @@ header nav ul li a:hover{
 .projects-container h4 {
     text-align: center;
     width: 25%;
-    font-size: 14px;
+    font-size: .75em;
     border-radius: 25px;
     color: var(--background-color);
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     background-color: var(--secondary-color);
     margin-top: 5px;
     
 }
 
 .project-container-1 {
-    height:350px;
     flex-basis: 50%;
+    height: 15em;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -279,6 +287,7 @@ header nav ul li a:hover{
     flex-basis: 46%;
     height: 100%;
     
+    
 }
 
 .project-container-3 div :hover {
@@ -291,6 +300,7 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     border-radius: 25px;
     border: var(--primary-color) solid thin;
@@ -301,20 +311,20 @@ header nav ul li a:hover{
     background-image: url("../Images/horiseon.PNG");
 }
 .project3-img{
-    background-image: url("../Images/pswd-gen.jpg");
+    background-image: url("../Images/ComingSoon.jpg");
 }
 .project4-img{
-    background-image: url("../Images/04-web-apis-homework-demo.gif");
+    background-image: url("../Images/ComingSoon.jpg");
 }
 .project5-img {
-    background-image: url("../Images/scheduler.png");
+    background-image: url("../Images/ComingSoon.jpg");
 }
 
 /*end projects styles*/
 
 /*Start reach out styles*/
 .reach-out {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     margin: 40px 0;
     padding: 20px 0;
     display: flex;
@@ -325,7 +335,7 @@ header nav ul li a:hover{
 .reach-out h2{
     font-size: 40px;
     text-align: center;
-    margin: 0px 0 20px 0;
+    margin: 0px 0 25px 0;
     color: var(--background-color);
 }
 
@@ -338,7 +348,7 @@ header nav ul li a:hover{
     color: var(--background-color);
     border:solid thin var(--background-color);
     border-radius: 25px;
-    height: 50px;
+    margin-left: 25px;
     justify-content: center;
     padding: 10px;
     
@@ -353,14 +363,14 @@ header nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .contact-form form {
     display: flex;
     border: var(--background-color)solid thin;
     border-radius: 25px;
-    width: 50%;
+  
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -368,8 +378,9 @@ header nav ul li a:hover{
 
 .reach-out address, .reach-out address a {
     color: var(--background-color);
-    margin-left: 20px;
+    margin:10px 20px 0 0;
     padding-top: 10px;
+    text-align: center;
 }
 /*End reach out styles*/
 
@@ -378,31 +389,35 @@ header nav ul li a:hover{
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
 }
 
 .footer {
     display: flex;
-    justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .footer-logo {
-    width: 15%;
-    justify-content: center;
+    width: 25%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .footer-logo img {
-    width: 70%;
+    width: ;
 }
 
 .footer-socials {
     display: flex;
+    margin-left: 20%;
     flex-direction: row;
     justify-content: space-evenly;
     width: 15%;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .footer-socials a {
@@ -414,8 +429,11 @@ header nav ul li a:hover{
 }
 .footer-text {
     color: var(--primary-color);
+    margin-left: 10%;
+    
 
 }
 
-
 /*end footer styles*/
+
+/*media queries*/
