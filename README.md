@@ -32,7 +32,7 @@ I learned how to use flexbox to style multiple flex containers with differing ca
 - No installation is required to use this web application. Simply navigate to the url in your favorite web browser (not compatible with Internet Explorer)
 
 ## How to use this application
-- Navigate to https://collin-beisel-tm.github.io/fullstack-portfolio/#get-to-know-me
+- Navigate to https://collin-beisel-tm.github.io/fullstack-portfolio/
 - scroll down to learn about me or click the global nav button to reach your desired section
 - Project cards in the 'My Work' section are clickable and will take you to the deployed application on GitHub pages. If the project is not yet complete the link will take you to my GitHub profile
 - Click the email link in the 'Reach Out' section or fill out the form to get in touch with me
