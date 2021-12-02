@@ -308,13 +308,13 @@ header nav ul li a:hover{
     height: 200px;
 }
 .project2-img{
-    background-image: url("../Images/horiseon.PNG");
+    background-image: url("../Images/weather-now-screenshot.PNG");
 }
 .project3-img{
-    background-image: url("../Images/pwd-gen-complete.PNG");
+    background-image: url("../Images/build-a-day-screenshot.PNG");
 }
 .project4-img{
-    background-image: url("../Images/weather-now-screenshot.PNG");
+    background-image: url("../Images/pwd-gen-complete.PNG");
 }
 .project5-img {
     background-image: url("../Images/run-buddy.PNG");
