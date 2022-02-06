@@ -7,10 +7,6 @@ This application is used to navigate my recent web dev projects and learn about 
 )
 ![Image of the My Work section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot2.PNG
 )
-
-![Image of the footer section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot3.PNG
-)
-
 ## Technologies used
 - HTML
 - CSS (flexbox)
