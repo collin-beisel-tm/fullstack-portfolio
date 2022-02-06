@@ -5,7 +5,7 @@ This application is used to navigate my recent web dev projects and learn about 
 
 ![Image of the top nav and hero section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot1.PNG
 )
-![Image of the My Work section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot2.PNG
+![Image of the My Work section](https://github.com/collin-beisel-tm/fullstack-portfolio/blob/main/assets/Images/readme-screenshot-2.PNG
 )
 ## Technologies used
 - HTML
