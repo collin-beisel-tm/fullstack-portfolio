@@ -236,7 +236,7 @@ header nav ul li a:hover{
    
     flex-basis: 90%;
     height: 100%;
-    background-image: url("../Images/game-grab-screenshot.PNG");
+    background-image: url("../Images/memegram-screenshot.PNG");
     background-size: cover;
     background-position: top;
     display: flex;
@@ -308,16 +308,16 @@ header nav ul li a:hover{
     height: 200px;
 }
 .project2-img{
-    background-image: url("../Images/weather-now-screenshot.PNG");
+    background-image: url("../Images/game-grab-screenshot.PNG");
 }
 .project3-img{
-    background-image: url("../Images/build-a-day-screenshot.PNG");
+    background-image: url("../Images/weather-now-screenshot.PNG");
 }
 .project4-img{
-    background-image: url("../Images/pwd-gen-complete.PNG");
+    background-image: url("../Images/build-a-day-screenshot.PNG");
 }
 .project5-img {
-    background-image: url("../Images/run-buddy.PNG");
+    background-image: url("../Images/pswd-gen.jpg");
 }
 
 /*end projects styles*/
